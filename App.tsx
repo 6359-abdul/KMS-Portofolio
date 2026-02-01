@@ -363,34 +363,23 @@ const UIContent = () => {
 };
 
 function App() {
-  const [showIntro, setShowIntro] = useState(true);
-
-  const handleIntroComplete = () => {
-    setShowIntro(false);
-  };
-
   return (
     <div className="h-screen w-full bg-dark-bg text-white overflow-hidden relative">
-      {/* Main Portfolio - Hidden during intro */}
-      {!showIntro && (
-        <>
-          {/* The 3D Canvas Background */}
-          <div className="absolute inset-0 z-0">
-            <Canvas
-              camera={{ position: [0, 0, 5], fov: 75 }}
-            >
-              <GalaxyScene />
-            </Canvas>
-          </div>
+      {/* The 3D Canvas Background */}
+      <div className="absolute inset-0 z-0">
+        <Canvas
+          camera={{ position: [0, 0, 5], fov: 75 }}
+        >
+          <GalaxyScene />
+        </Canvas>
+      </div>
 
-          <div className="absolute inset-0 z-10 overflow-y-auto overflow-x-hidden scroll-smooth">
-            <UIContent />
-          </div>
+      <div className="absolute inset-0 z-10 overflow-y-auto overflow-x-hidden scroll-smooth">
+        <UIContent />
+      </div>
 
-          {/* Interactive Guide Robot */}
-          <GuideRobot />
-        </>
-      )}
+      {/* Interactive Guide Robot */}
+      <GuideRobot />
     </div>
   );
 }
