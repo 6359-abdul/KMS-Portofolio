@@ -41,35 +41,54 @@ export const PROJECTS = [
 ];
 
 export const EXPERIENCE = [
+
   {
-    company: "MS Educational and Welfare Trust",
-    role: "Data Analyst",
-    period: "Feb 2025 - Present",
-    location: "Hyderabad, India",
-    details: [
-      "Testing and analyzing complex datasets to support data-driven decision making.",
-      "Uploading critical data into MCB ERP software.",
-      "Ensuring seamless data migration and optimized reporting."
-    ]
+  company: "MS Educational and Welfare Trust",
+  role: "Python Full Stack Developer",
+  period: "September (2025)- Present",
+  location: "Hyderabad, India",
+  details: [
+    "Developing and maintaining full-stack ERP modules using modern frontend and backend technologies to support academic and administrative workflows.",
+    "Designing responsive user interfaces for ERP dashboards and data-driven views to improve usability and operational efficiency.",
+    "Building and integrating RESTful APIs to handle student data, authentication, and ERP business logic.",
+    "Implementing backend services for data processing, validation, and secure storage within the ERP system.",
+    "Working with relational databases to design schemas, write optimized queries, and ensure data integrity across ERP modules.",
+    "Handling data migration, API integrations, and system configuration to ensure smooth ERP deployments and upgrades.",
+    "Collaborating with stakeholders to gather requirements, implement feature enhancements, and provide ERP system training.",
+    "Coordinating with ERP vendors to debug production issues, resolve data inconsistencies, and address security-related concerns."
+  ]
   },
   {
-    company: "Adhoc Network Tech Company",
-    role: "Project Intern",
-    period: "Feb 2024 - July 2024",
-    location: "Vishakhapatnam, India",
-    details: [
-      "Gained hands-on experience in cutting-edge technology projects.",
-      "Collaborated with experienced developers to deliver high-quality solutions."
-    ]
+  company: "MS Educational and Welfare Trust",
+  role: "Data Analyst",
+  period: "Feb 2025 - September 2025",
+  location: "Hyderabad, India",
+  details: [
+    "Tested, analyzed, and validated complex student datasets to support data-driven academic and administrative decision-making.",
+    "Managed the upload and maintenance of critical institutional data within MCB ERP, ensuring accuracy, consistency, and compliance with data standards.",
+    "Executed seamless data migration processes, performing data validation and reconciliation to maintain data integrity and optimize reporting.",
+    "Analyzed student data and developed visual reports and dashboards within the ERP system to track performance, enrollment, and operational metrics.",
+    "Performed data cleaning, transformation, and de-duplication to improve data quality and reliability of analytical outputs.",
+    "Collaborated with stakeholders to gather reporting requirements and delivered ERP training to enable effective, data-driven system usage.",
+    "Coordinated with ERP vendors to investigate and resolve data discrepancies, system issues, and potential data security incidents."
+  ]
   },
+  
   {
-    company: "Java Fullstack Internship",
-    role: "Intern",
-    period: "Short-term",
-    details: [
-      "Focused on registration and database management.",
-      "Gained insights into SDLC and database optimization."
-    ]
+  {
+  company: "Res-q Service Pvt. Ltd (Reliance Retail Industries)",
+  role: "Data Analyst",
+  period: "June 2025 - December 2025",
+  location: "Kakinada, India",
+  details: [
+    "Analyzed large-scale customer service datasets across India to identify and filter customers within assigned local pin code regions.",
+    "Performed data segmentation and location-based analysis to assign nearby service technicians for product installation and repair requests.",
+    "Analyzed service demand data to estimate technician requirements and coordinated with Reliance Retail store vendors for workforce planning.",
+    "Tracked service calls from initiation to closure, analyzing turnaround time (TAT), service efficiency, and resolution metrics.",
+    "Generated and analyzed operational reports to evaluate service performance and support data-driven decision-making.",
+    "Worked extensively with SAP CRM to manage customer records, service tickets, and reporting workflows.",
+    "Ensured data accuracy and consistency while handling high-volume service and customer datasets."
+  ]
   }
 ];
 
