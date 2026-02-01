@@ -74,7 +74,7 @@ export const EXPERIENCE = [
   ]
   },
   
-  {
+
   {
   company: "Res-q Service Pvt. Ltd (Reliance Retail Industries)",
   role: "Data Analyst",
