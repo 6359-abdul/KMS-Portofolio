@@ -21,6 +21,13 @@ export const SKILLS = [
   { name: "Web Dev (Java)", category: "Dev", level: 75, icon: Globe },
   { name: "Power BI", category: "Tools", level: 85, icon: Server },
   { name: "Generative AI", category: "Core", level: 80, icon: Code },
+  { name: "Git & GitHub", category: "Tools", level: 85, icon: GitBranch },
+  { name: "CI/CD Pipelines", category: "DevOps", level: 75, icon: Repeat },
+  { name: "AWS (Basic)", category: "Cloud", level: 70, icon: Cloud },
+  { name: "Large Language Models (LLMs)", category: "AI", level: 80, icon: Cpu },
+  { name: "Full Stack Development", category: "Development", level: 85, icon: Layers },
+  { name: "Docker", category: "DevOps", level: 70, icon: Box },
+  { name: "REST APIs", category: "Backend", level: 85, icon: Link },
 ];
 
 export const PROJECTS = [
